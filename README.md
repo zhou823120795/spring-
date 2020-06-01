@@ -31,7 +31,7 @@ public class EventReqService implements IReqService
 @Service("messageReqService")
 public class MessageReqService implements IReqService
 
-2.
+2.(将对象转化为String类型的xml,key对应的value值赋给bean的属性)
 <dependency>
     <groupId>commons-beanutils</groupId>
     <artifactId>commons-beanutils</artifactId>
